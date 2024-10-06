@@ -13,6 +13,7 @@ body {
 
 h1 {
   font-family: var(--name-heading-font-family);
+  line-height: 0.8;
 }
 
 h2,
