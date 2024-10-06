@@ -1,13 +1,64 @@
-/* <uniquifier>: Use a unique and descriptive class name
-<weight>: Use a value from 300 to 700 */
-
-.noto-emoji {
-  font-family: "Noto Emoji", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+:root {
+  --branding-color: #cce7fa;
+  --secondary-branding-color: #536878;
+  --name-heading-font-family: "Qwitcher Grypen", cursive;
+  --sub-headings-font-family: "Handlee", cursive;
+  --primary-font-family: "Poppins", sans-serif;
+  --btn-box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.3);
 }
 
-body {
-  background-color: aquamarine;
+h1 {
+  font-family: var(--name-heading-font-family);
+}
+
+h2,
+h3,
+h4,
+h5,
+h5 {
+  font-family: var(--sub-headings-font-family);
+}
+
+p {
+  font-family: var(--primary-font-family);
+  font-weight: 300;
+}
+
+.hero {
+  background-color: var(--branding-color);
+  text-align: center;
+  padding: 120px 20px;
+}
+
+.hero h1 {
+  font-weight: 700;
+  font-size: 120px;
+  padding-top: 0px;
+}
+
+.hero h2 {
+  font-family: var(--primary-font-family);
+  font-weight: 300;
+  font-size: 24px;
+  color: var(--secondary-branding-color);
+  line-height: 1.5;
+}
+
+.hero p {
+  font-weight: 300;
+  font-size: 32px;
+  color: var(--secondary-branding-color);
+  padding-top: 25px;
+}
+
+.btn-branding {
+  background-color: var(--secondary-branding-color);
+  color: whitesmoke;
+  text-decoration: none;
+  font-family: var(--primary-font-family);
+  font-size: 20px;
+  font-weight: 200;
+  border-radius: 5px;
+  padding: 20px 30px;
+  box-shadow: var(--btn-box-shadow);
 }
