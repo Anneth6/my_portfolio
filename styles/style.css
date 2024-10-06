@@ -17,11 +17,13 @@ h4,
 h5,
 h5 {
   font-family: var(--sub-headings-font-family);
+  font-weight: bold;
 }
 
 p {
   font-family: var(--primary-font-family);
   font-weight: 300;
+  line-height: 1.7;
 }
 
 .hero {
@@ -51,6 +53,14 @@ p {
   padding-top: 25px;
 }
 
+.featured-heading {
+  font-family: var(--name-heading-font-family);
+  color: var(--secondary-branding-color);
+  font-size: 60px;
+  text-align: center;
+  margin: 25px 0px 50px 0px;
+}
+
 .btn-branding {
   background-color: var(--secondary-branding-color);
   color: whitesmoke;
@@ -61,4 +71,58 @@ p {
   border-radius: 5px;
   padding: 20px 30px;
   box-shadow: var(--btn-box-shadow);
+}
+
+.btn-launch {
+  background-color: var(--branding-color);
+  color: var(--secondary-branding-color);
+  text-decoration: none;
+  font-family: var(--primary-font-family);
+  font-size: 16px;
+  font-weight: 300;
+  border-radius: 5px;
+  padding: 10px 15px;
+  box-shadow: var(--btn-box-shadow);
+}
+
+.btn-launch:hover {
+  text-decoration: underline;
+  border: 1px solid var(--secondary-branding-color);
+  color: whitesmoke;
+  background-color: var(--secondary-branding-color);
+}
+
+.project-decsriptions {
+  padding: 10px 60px;
+}
+
+@media (max-width: 768px) {
+  .project-decsriptions {
+    padding: 0;
+    text-align: center;
+  }
+  .hero {
+    background-color: var(--branding-color);
+    text-align: center;
+    padding: 60px 10px;
+  }
+  .hero h1 {
+    font-size: 60px;
+  }
+  .hero h2 {
+    font-size: 18px;
+  }
+  .hero p {
+    font-size: 18px;
+  }
+  .featured-heading {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
 }
