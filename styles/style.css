@@ -148,6 +148,15 @@ p {
   margin: 20px 10px;
 }
 
+.portfolio-link {
+  text-decoration: none;
+  color: var(--secondary-branding-color);
+}
+
+.portfolio-link:hover {
+  color: #009ad6;
+}
+
 .project-decsriptions {
   padding: 10px 60px;
 }
