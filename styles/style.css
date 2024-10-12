@@ -31,6 +31,40 @@ p {
   line-height: 1.7;
 }
 
+.home-icon {
+  max-height: 150px;
+  font-size: 50px;
+  color: var(--secondary-branding-color);
+}
+
+nav {
+  padding: 15px 0px;
+}
+
+nav ul {
+  padding: 0;
+  margin-bottom: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 50px;
+  margin-left: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--secondary-branding-color);
+  transition: all 125ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  font-weight: 600;
+  color: #285a84;
+}
+
 .hero {
   background-color: var(--branding-color);
   text-align: center;
@@ -85,7 +119,7 @@ p {
   text-decoration: none;
   font-family: var(--primary-font-family);
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 400;
   border-radius: 5px;
   padding: 20px 30px;
   box-shadow: var(--btn-box-shadow);
@@ -250,5 +284,17 @@ p {
     font-size: 16px;
     border-radius: 5px;
     padding: 10px 15px;
+  }
+
+  .home-icon {
+    font-size: 30px;
+    color: var(--secondary-branding-color);
+  }
+
+  nav a,
+  nav li {
+    font-size: 14px;
+    margin: 5px;
+    line-height: 30px;
   }
 }
