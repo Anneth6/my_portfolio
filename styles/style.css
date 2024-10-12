@@ -76,6 +76,19 @@ p {
   border-radius: 5px;
   padding: 20px 30px;
   box-shadow: var(--btn-box-shadow);
+  transition: all 200ms ease-in-out;
+}
+
+.btn-branding:hover {
+  background-color: whitesmoke;
+  color: var(--secondary-branding-color);
+  text-decoration: none;
+  font-family: var(--primary-font-family);
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 5px;
+  padding: 20px 30px;
+  box-shadow: var(--btn-box-shadow);
 }
 
 .btn-launch {
@@ -88,6 +101,7 @@ p {
   border-radius: 5px;
   padding: 10px 15px;
   box-shadow: var(--btn-box-shadow);
+  transition: all 200ms ease-in-out;
 }
 
 .btn-launch:hover {
@@ -96,26 +110,6 @@ p {
   color: whitesmoke;
   background-color: var(--secondary-branding-color);
 }
-
-/* .btn-hero-launch {
-  background-color: var(--secondary-branding-color);
-  color: var(--branding-color);
-  text-decoration: none;
-  font-family: var(--primary-font-family);
-  font-size: 16px;
-  font-weight: 300;
-  border-radius: 5px;
-  padding: 10px 15px;
-  box-shadow: var(--btn-box-shadow);
-}
-
-.btn-hero-launch:hover {
-  text-decoration: underline;
-  font-weight: bold;
-  border: 2px solid var(--secondary-branding-color);
-  color: var(--secondary-branding-color);
-  background-color: #cce7fa;
-} */
 
 .portfolio-body {
   display: flex;
@@ -154,7 +148,9 @@ p {
 }
 
 .portfolio-link:hover {
-  color: #009ad6;
+  color: #285a84;
+  text-decoration: #285a84 wavy;
+  text-decoration-line: underline;
 }
 
 .project-decsriptions {
@@ -182,21 +178,6 @@ p {
   border-radius: 15px;
 }
 
-/* .hero-inquiry {
-  padding: 10px 10px;
-  font-family: var(--primary-font-family);
-  font-weight: 300;
-  font-size: 16px;
-  color: var(--secondary-branding-color);
-  border: 1px solid #536878;
-  border-radius: 15px;
-  line-height: 1;
-}
-.hero-inquiry p {
-  font-size: 16px;
-  line-height: 1;
-} */
-
 .inquiry-details {
   padding: 20px;
 }
@@ -204,6 +185,22 @@ p {
 .info-icon {
   font-size: 50px;
   font-weight: bold;
+  color: var(--secondary-branding-color);
+}
+
+.svg-icons {
+  width: 50px;
+  height: 50px;
+  color: var(--secondary-branding-color);
+}
+
+.contact-text {
+  text-align: center;
+  margin: 0px 25px;
+}
+
+.contact-container {
+  max-width: 1000px;
 }
 
 @media (max-width: 768px) {
@@ -247,5 +244,11 @@ p {
     padding: 0;
     font-size: 16px;
     line-height: 1.5;
+  }
+
+  .btn-branding {
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 10px 15px;
   }
 }
