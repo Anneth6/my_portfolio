@@ -107,6 +107,30 @@ p {
   box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.3);
 }
 
+.about {
+  padding: 10px 60px;
+}
+
+.inquiry {
+  padding: 10px 10px;
+  font-family: var(--primary-font-family);
+  font-weight: 300;
+  font-size: 16px;
+  color: var(--secondary-branding-color);
+  line-height: 1.5;
+  border: 1px solid #536878;
+  border-radius: 15px;
+}
+
+.inquiry-details {
+  padding: 20px;
+}
+
+.info-icon {
+  font-size: 50px;
+  font-weight: bold;
+}
+
 @media (max-width: 768px) {
   .project-decsriptions {
     padding: 0;
@@ -132,7 +156,20 @@ p {
   h2 {
     font-size: 20px;
   }
+  h3 {
+    font-size: 18px;
+  }
   p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .about {
+    text-align: center;
+    padding: 0;
+  }
+  .inquiry {
+    text-align: center;
+    padding: 0;
     font-size: 16px;
     line-height: 1.5;
   }
