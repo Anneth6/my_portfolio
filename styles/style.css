@@ -221,6 +221,7 @@ nav li.active a {
   line-height: 1.5;
   border: 1px solid #536878;
   border-radius: 15px;
+  background-color: var(--branding-color);
 }
 
 .inquiry-details {
@@ -239,13 +240,47 @@ nav li.active a {
   color: var(--secondary-branding-color);
 }
 
+.social-svg-icons {
+  width: 30px;
+  height: 30px;
+  color: var(--secondary-branding-color);
+  text-decoration: none;
+  margin: 10px;
+  transition: all 150ms ease-in-out;
+}
+
+footer .social-svg-icons a:hover {
+  transform: scale(1.1);
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: var(--secondary-branding-color);
+  font-size: 24px;
+  text-align: center;
+}
+
+footer .email-link:hover {
+  color: #285a84;
+  font-weight: bolder;
+}
+
 .contact-text {
   text-align: center;
   margin: 0px 25px;
 }
 
 .contact-container {
-  max-width: 1000px;
+  max-width: 900px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media (max-width: 768px) {
