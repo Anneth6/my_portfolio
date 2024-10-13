@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Ann continues to develop and evolved her front-end developer skills. View some of her projects to date."
+    />
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
@@ -55,23 +59,34 @@
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <a href="/">
+        <a href="/" title="Homepage">
           <span class="material-symbols-outlined home-icon">
             temp_preferences_eco
           </span>
         </a>
         <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/about.html">About</a></li>
-          <li class="active"><a href="/portfolio.html">Portfolio</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+          <li><a href="/" title="Homepage">Home</a></li>
+          <li><a href="/about.html" title="Learn more about Ann">About</a></li>
+          <li class="active">
+            <a href="/portfolio.html" title="Check out the portfolio"
+              >Portfolio</a
+            >
+          </li>
+          <li><a href="/contact.html" title="Get in contact">Contact</a></li>
         </ul>
       </nav>
     </div>
     <div class="hero">
       <h1>Ann Russell</h1>
       <h2 class="mb-5">Front-end developer, based in Melbourne, Victoria</h2>
-      <div><a class="btn-branding" href="/contact.html">Let's talk</a></div>
+      <div>
+        <a
+          class="btn-branding"
+          href="/contact.html"
+          title="Contact me option page"
+          >Let's talk</a
+        >
+      </div>
     </div>
     <div>
       <div class="mt-3 mb-3">
@@ -292,8 +307,9 @@
           </div>
           <div>
             <a
-              class="btn btn-launch m-3"
-              href="mailto:annrussell@outlook.com &subject=Work Inquiry - Let's talk"
+              class="btn btn-inquiry m-3"
+              href="/contact.html"
+              title="Contact me option page"
               >Let's talk</a
             >
           </div>
@@ -303,13 +319,17 @@
     <div class="container">
       <footer>
         <div class="d-flex justify-content-center mb-2">
-          <a href="mailto:annrussell@outlook.com" class="email-link"
+          <a
+            href="mailto:annrussell@outlook.com &subject=Work Inquiry"
+            class="email-link"
+            title="Get in touch via email"
             >annrussell@outlook.com</a
           >
         </div>
-        <div class="social-links d-flex justify-content-center mb-5">
+        <div class="social-links d-flex justify-content-center mb-3">
           <a
             href="https://www.linkedin.com/in/russellann/"
+            title="Contact Ann through LinkedIn"
             target="_blank"
             class="social-svg-icons"
           >
@@ -323,6 +343,7 @@
           </a>
           <a
             href="https://www.github.com/Anneth6"
+            title="Reach out to Ann through GitHub"
             target="_blank"
             class="social-svg-icons"
           >
@@ -334,6 +355,16 @@
               />
             </svg>
           </a>
+        </div>
+        <div>
+          <p class="text-center mt-3 mb-5">
+            This page was coded by Ann Russell and is
+            <a
+              href="https://github.com/Anneth6/my_portfolio"
+              title="Link to GitHub files"
+              >open sourced</a
+            >
+          </p>
         </div>
       </footer>
     </div>

@@ -146,10 +146,28 @@ nav li.active a {
 }
 
 .btn-launch:hover {
-  text-decoration: underline;
   border: 1px solid var(--secondary-branding-color);
   color: whitesmoke;
   background-color: var(--secondary-branding-color);
+}
+
+.btn-inquiry {
+  background-color: var(--secondary-branding-color);
+  color: whitesmoke;
+  text-decoration: none;
+  font-family: var(--primary-font-family);
+  font-size: 16px;
+  font-weight: 300;
+  border-radius: 5px;
+  padding: 10px 15px;
+  box-shadow: var(--btn-box-shadow);
+  transition: all 200ms ease-in-out;
+}
+
+.btn-inquiry:hover {
+  background-color: whitesmoke;
+  color: var(--secondary-branding-color);
+  font-weight: 400;
 }
 
 .portfolio-body {
@@ -283,6 +301,21 @@ footer .email-link:hover {
   justify-content: center;
 }
 
+footer p {
+  font-size: 13px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #285a84;
+  font-weight: 500;
+}
+
+footer a:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
 @media (max-width: 768px) {
   .project-decsriptions {
     padding: 0;
@@ -328,6 +361,12 @@ footer .email-link:hover {
 
   .btn-branding {
     font-size: 16px;
+    border-radius: 5px;
+    padding: 10px 15px;
+  }
+
+  .btn-branding:hover {
+    font-size: 18px;
     border-radius: 5px;
     padding: 10px 15px;
   }
