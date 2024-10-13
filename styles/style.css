@@ -39,6 +39,7 @@ p {
 
 nav {
   padding: 15px 0px;
+  font-family: var(--primary-font-family);
 }
 
 nav ul {
@@ -51,6 +52,12 @@ nav li {
   list-style: none;
   line-height: 50px;
   margin-left: 10px;
+}
+
+nav li.active a {
+  font-family: var(--name-heading-font-family);
+  font-size: 40px;
+  font-weight: bolder;
 }
 
 nav a {
@@ -195,6 +202,10 @@ nav li.active a {
   border-radius: 15px;
   width: 200px;
   box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.3);
+}
+
+.image-index {
+  max-width: 500px;
 }
 
 .about {
