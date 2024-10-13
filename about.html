@@ -93,29 +93,16 @@
     <div class="about">
       <div class="container mt-5 mb-5">
         <div class="row">
-          <div class="col-md-4">
-            <div class="row mb-3">
-              <div class="col-12">
-                <img
-                  class="mx-auto d-block img-fluid img-centre"
-                  src="images/Me_avatar.JPG"
-                  alt="Ann Russell avatar"
-                />
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-12">
-                <img
-                  class="mx-auto d-none d-lg-block img-fluid img-centre"
-                  src="images/Smiley.jpg"
-                  alt="A smiley drawn in the sand"
-                />
-              </div>
-            </div>
+          <div class="col-md-3 mb-3">
+            <img
+              class="mx-auto d-block img-fluid img-centre"
+              src="images/Me_avatar.JPG"
+              alt="Ann Russell avatar"
+            />
           </div>
-          <div class="col">
+          <div class="col-md-9">
             <div>
-              <h2>A little about me</h2>
+              <h2 class="mt-1">A little about me</h2>
               <p>
                 My background is not in computers or coding. Rather from the
                 world of occupational (or workplace) health and safety.
@@ -127,45 +114,60 @@
                 mind.
               </p>
               <p>As a result I might look at things a little differently.</p>
-              <a class="btn btn-launch mb-5" href="/portfolio.html"
+              <a
+                class="btn btn-launch mb-5"
+                href="/portfolio.html"
+                title="Take a look at some of my works"
                 >Look a little further</a
               >
             </div>
           </div>
-        </div>
-      </div>
-    </div>
-    <div class="d-flex justify-content-center">
-      <div
-        class="inquiry d-flex justify-content-between d-none d-md-flex m-5 p-3"
-      >
-        <div>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="svg-icons"
-            viewBox="0 0 512 512"
-          >
-            <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-            <path
-              fill="var(--secondary-branding-color)"
-              d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336l24 0 0-64-24 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l48 0c13.3 0 24 10.7 24 24l0 88 8 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"
-            />
-          </svg>
-        </div>
-        <div>
-          <h4 class="m-2">Work Inquiry</h4>
-          <p class="m-2">
-            Drop me a line and we can see if our schedules align. If they do,
-            lets make your site great.
-          </p>
-        </div>
-        <div>
-          <a
-            class="btn btn-inquiry m-3"
-            href="/contact.html"
-            title="Contact me option page"
-            >Let's talk</a
-          >
+
+          <div class="col-md-9">
+            <div class="d-flex justify-content-center">
+              <div
+                class="inquiry d-flex justify-content-between d-none d-lg-flex m-5 p-3"
+              >
+                <div>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="svg-icons"
+                    viewBox="0 0 512 512"
+                  >
+                    <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                    <path
+                      fill="var(--secondary-branding-color)"
+                      d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336l24 0 0-64-24 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l48 0c13.3 0 24 10.7 24 24l0 88 8 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <h4 class="m-2">Work Inquiry</h4>
+                  <p class="m-2">
+                    Drop me a line and we can see if our schedules align. If
+                    they do, lets make your site great.
+                  </p>
+                </div>
+                <div>
+                  <a
+                    class="btn btn-inquiry m-3"
+                    href="/contact.html"
+                    title="Jump to Ann's contact options"
+                    >Let's talk</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div>
+              <img
+                class="mx-auto d-none d-lg-block img-fluid img-centre"
+                src="images/Smiley.jpg"
+                alt="A smiley drawn in the sand"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -210,13 +212,19 @@
           </a>
         </div>
         <div>
-          <p class="text-center mt-3 mb-3">
-            This page was coded by Ann Russell and is
+          <p class="text-center mt-3 mb-5">
+            This page was coded by Ann Russell and is open sourced on
             <a
               href="https://github.com/Anneth6/my_portfolio"
               title="Link to GitHub files"
-              >open sourced</a
+              >GitHub</a
             >
+            and hosted on
+            <a
+              href="https://app.netlify.com/teams/anneth6/sites"
+              title="Link to Netlify profile"
+              >Netlify</a
+            >.
           </p>
         </div>
       </footer>
